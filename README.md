@@ -22,11 +22,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Operating System: Windows 10 (21H2)
+- Web Server: IIS with CGI feature enabled.
+- PHP Version: 7.3.8.
+- Database: MySQL 5.5.
+- Tools:
+PHP Manager for IIS.
+URL Rewrite Module.
+HeidiSQL for database management.
 
 <h2>Installation Steps</h2>
 
