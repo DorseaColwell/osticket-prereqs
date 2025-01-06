@@ -37,7 +37,13 @@ HeidiSQL for database management.
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Enable IIS Features:
+
+Enable "Internet Information Services" and "CGI" in Windows Features.
+Install Dependencies:
+
+Install PHP Manager and URL Rewrite Module.
+Download and configure PHP 7.3.8 in C:\PHP.
 </p>
 <br />
 
@@ -45,14 +51,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+Set Up MySQL:
+
+Install MySQL 5.5, set the root password, and create a database named osTicket.
+Install osTicket:
+
+Download osTicket and extract the "upload" folder to C:\inetpub\wwwroot\osTicket.
+Rename ost-sampleconfig.php to ost-config.php and set appropriate permissions.
 <br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Configure PHP Extensions:
+
+Enable php_imap.dll, php_intl.dll, and php_opcache.dll in PHP Manager.
+Finalize Installation:
+
+Access http://localhost/osTicket in your browser and follow the setup wizard.
+After installation, delete the setup folder and set ost-config.php to read-only.
 </p>
 <br />
